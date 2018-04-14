@@ -1,0 +1,20 @@
+dependencies:
+- rpm:
+  - java-devel
+- rpm:
+  - maven
+- rpm:
+  - eclipse
+  - eclipse-cdt
+- rpm:
+  - eclipse-jdt
+  - eclipse-m2e-core
+  - eclipse-egit
+devassistant_version: 0.9.4
+original_kwargs:
+  eclipse: !!python/unicode '/home/dave/workspace'
+  github: !!python/unicode 'davedoros'
+  name: !!python/unicode '/home/dave/Java_Number3'
+project_type:
+- java
+- maven
